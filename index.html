@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Pris' Tattoo Parlour</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="app.js"></script>
+    <script>
+        var getName = prompt('What is your name ? ');
+if (getName == null || getName == ""){
+  txt='No name provided';
+} else{
+  txt ='Hey '+ getName+ ', welcome to the parlour sweet cheeks!!'
+}
+alert(txt);
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <h1> Pris' Tattoo Parlour</h1>
+            <nav>
+                <ul>
+                    <li class="nav-links" id="instagram"><a href="https://instagram.com/sofiretattoo?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a></li>
+                    <li class="nav-links" id="gallery"><a href="index2.html" target="_blank">Gallery</a></li>
+                    <li class="nav-links" id="looking-for--an-artist"><a href="">Looking for an artist?</a></li>
+                    <li id="book_an_appointment"><a href="index3.html" target="_blank">Book An Appointment</a></li>
+                    <li class="form"><form>
+                        <label for="form-search"></label>
+                        <input type="text" id="form-search" placeholder="Ask some questions">
+                    </form></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <div id="animetattoo">
+        <div class="wrapper">
+            <h2><strong>Welcome the the Parlour</strong></h2><br/>
+            <a onclick="alert('Are you sure you can handle the pain?')" href="index3.html" target="_blank" class="button-1">Bookings</a>
+        </div>
+    </div>   
+    <div id="features">
+        <div class="wrapper">
+            <ul>
+                <li class="feature-1">
+                    <h4>Emphmeral Tattoo</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+                <li class="feature-2">
+                    <h4>Summer Deals 25%</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+                <li class ="feature-3">
+                    <h4>Mystery Tattoo!!</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="video-box">
+        <div class="wrapper">
+            <article>
+                <h3>More content!?!?</h3>
+                <p>Click on the image below to watch a quick</p>
+                <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/H7OZvHctOeA?autoplay=1" width="650" height="430" frameborder="0"></iframe>
+                </div>
+            </article>
+        </div>
+    </div>   
+    <div id="cta">
+        <div class="wrapper">
+            <h3>Not quite seen enough???</h3>
+            <p>Come check out the gallery!!</p>
+            <a href="index2.html" class="button-2">Gallery Images</a>
+        </div>
+    </div> 
+    <hr>
+    <footer>
+        <div class="wrapper">
+                 <ul class="footer-left">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="https://instagram.com/sofiretattoo?igshid=YmMyMTA2M2Y="> Instagram</a></li> 
+                  </ul>
+                  <ul class="footer-right">    
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Settings</a></li>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

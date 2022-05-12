@@ -1,0 +1,82 @@
+<!--- Third HTML page, where people can book an appointment-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Pris' Tattoo Parlour Contact Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src=""></script>
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <h1>Pris' Tattoo Parlour</h1>
+      <nav>
+        <ul>
+          <li class="nav-links" id="instagram"><a href="https://instagram.com/sofiretattoo?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a></li>
+          <li class="nav-links" id="gallery"><a href="index2.html" target="_blank">Gallery</a></li>
+          <li class="nav-links" id="looking-for--an-artist"><a href="">Looking for an artist?</a></li>
+          <li id="book_an_appointment"><a href="index3.html" target="_blank">Book An Appointment</a></li>
+          <li class="form"><form>
+            <label for="form-search"></label>
+              <input type="text" id="form-search" placeholder="Ask some questions">
+              </form></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <br>
+  <div id="schedule-booking">
+    <div class="wrapper">
+      <h4>Interested in a tatt?</h4>
+      <p>Enquire below</p>
+  </div>
+  <div class="container">
+    <form action="booking_page.php"> 
+     <label for="name">Name</label>
+      <input type="text" id="name" name="fullname" placeholder="Your name..">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email address..">
+        <label for="Town">Town</label>
+      <select id="Town" name="Town">
+          <option value="Aberdeen">Aberdeen</option>
+          <option value="Birmingham">Birmingham</option>
+          <option value="Coventry">Coventry</option>
+          <option value=" Edinburgh">Edinburgh</option>
+          <option value="Isle of Dogs">Isle of Dogs</option>
+          <option value="Manchester">Manchester</option>
+          <option value="Leicester">Leicester</option>
+          <option value="Leeds">Leeds</option>
+          <option value="London">London</option>
+          <option value="Other">Other</option>
+      </select>
+      
+      <label for="subject">Subject</label>
+     <textarea id="subject" name="subject" placeholder="Contact us.." style="height:200px"></textarea>
+      
+     <input type="submit" value="Submit">
+      
+    </form>
+    </div>
+    <hr>
+  <footer>
+      <div class="wrapper">
+        <ul class="footer-left">
+           <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="https://instagram.com/sofiretattoo?igshid=YmMyMTA2M2Y=" target="_blank"> Instagram</a></li> 
+        </ul>
+        <ul class="footer-right">    
+         <li><a href="#">Privacy</a></li>
+         <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+          </div>
+      </div>
+  </footer> 
+</body>
+</html>
